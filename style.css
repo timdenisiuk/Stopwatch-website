@@ -1,0 +1,49 @@
+/* Variabes */  
+
+/* Mixin's */  
+
+
+body {
+background-image: linear-gradient(to bottom right, blue, green);
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+height:100%;
+}
+
+.wrapper {
+width: 700px;
+height: 700px;
+margin: 300px auto;
+color:white;
+text-align:center;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 2.6em;
+}
+
+#minutes, #seconds, #tens{
+  font-size:2em;
+}
+
+button{
+background:rgb(43, 67, 131);
+color:rgb(238, 8, 150);
+border: solid 1px white;
+border-radius: 8px;
+text-decoration:none;
+cursor:pointer;
+font-size:1.2em;
+padding:18px 10px;
+width:180px;
+margin: 10px;
+outline: none;
+transition-duration: 0.3s;
+}
+
+button:hover{
+    background-color:rgb(49, 151, 117);
+}
+
+
